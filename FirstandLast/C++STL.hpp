@@ -11,17 +11,19 @@
 
 #include <iostream>
 #include <vector>
-
+#include <list>
 using namespace std;
 
 class Cpp_STL
 {
 private:
     vector<int> v;
+    list<int> l;
 public:
     Cpp_STL();
     Cpp_STL(int);
     void vectordisplay();
+    void listdisplay();
 };
 
 #endif /* C__STL_hpp */

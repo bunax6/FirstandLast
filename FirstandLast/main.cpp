@@ -23,5 +23,7 @@ int main(int argc, const char * argv[]) {
     Cpp_STL vt(10);
     vt.vectordisplay();
     cout<<"Vector display end here"<<endl;
+    vt.listdisplay();
+    cout<<"List display end here"<<endl;
     return 0;
 }
