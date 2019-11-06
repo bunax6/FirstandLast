@@ -21,8 +21,13 @@ private:
 public:
     Cpp_11();
     Cpp_11(int);
+    Cpp_11(const Cpp_11&)=delete;
+    Cpp_11& operator=(const Cpp_11&)=delete ;
+    
     void show();
     
 };
+
+void Other();
 
 #endif /* C__11_hpp */

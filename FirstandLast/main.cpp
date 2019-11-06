@@ -9,6 +9,7 @@
 #include <iostream>
 #include "General.h"
 #include "C++11.hpp"
+#include "C++STL.hpp"
 
 
 
@@ -18,5 +19,8 @@ int main(int argc, const char * argv[]) {
     General(); //General has been called here
     Cpp_11 c(100);
     c.show();
+    Other();
+    Cpp_STL vt(10);
+    vt.vectordisplay();
     return 0;
 }
