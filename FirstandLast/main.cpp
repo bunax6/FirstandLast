@@ -10,6 +10,7 @@
 #include "General.h"
 #include "C++11.hpp"
 #include "C++STL.hpp"
+#include "SortingTech.hpp"
 
 
 
@@ -25,5 +26,20 @@ int main(int argc, const char * argv[]) {
     cout<<"Vector display end here"<<endl;
     vt.listdisplay();
     cout<<"List display end here"<<endl;
+    
+    cout<<"Sorting Technic below"<<endl;
+    int arr[] = { 10,1,34,56,2,12};
+    cout<<"Bubblesort"<<endl;
+    BubbleSort(arr, 6);
+    SortShow(arr,6);
+    
+    cout<<"\nInsertion sort"<<endl;
+    
+    InsertionSort(arr, 6);
+    SortShow(arr,6);
+    cout<<endl;
+    
+    
+    
     return 0;
 }

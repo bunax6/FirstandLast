@@ -11,6 +11,7 @@
 		63913D6A2371C81200A0E1A4 /* General.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63913D692371C81200A0E1A4 /* General.cpp */; };
 		63913D6D2371C97500A0E1A4 /* C++11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63913D6B2371C97500A0E1A4 /* C++11.cpp */; };
 		63BFB4F523725A4500D0265B /* C++STL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB4F323725A4500D0265B /* C++STL.cpp */; };
+		63BFB4F82373C6B200D0265B /* SortingTech.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB4F62373C6B200D0265B /* SortingTech.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		63913D6C2371C97500A0E1A4 /* C++11.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "C++11.hpp"; sourceTree = "<group>"; };
 		63BFB4F323725A4500D0265B /* C++STL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C++STL.cpp"; sourceTree = "<group>"; };
 		63BFB4F423725A4500D0265B /* C++STL.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "C++STL.hpp"; sourceTree = "<group>"; };
+		63BFB4F62373C6B200D0265B /* SortingTech.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortingTech.cpp; sourceTree = "<group>"; };
+		63BFB4F72373C6B200D0265B /* SortingTech.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortingTech.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				63913D6C2371C97500A0E1A4 /* C++11.hpp */,
 				63BFB4F323725A4500D0265B /* C++STL.cpp */,
 				63BFB4F423725A4500D0265B /* C++STL.hpp */,
+				63BFB4F62373C6B200D0265B /* SortingTech.cpp */,
+				63BFB4F72373C6B200D0265B /* SortingTech.hpp */,
 			);
 			path = FirstandLast;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 				63913D6D2371C97500A0E1A4 /* C++11.cpp in Sources */,
 				63913D6A2371C81200A0E1A4 /* General.cpp in Sources */,
 				63913D622371C5F600A0E1A4 /* main.cpp in Sources */,
+				63BFB4F82373C6B200D0265B /* SortingTech.cpp in Sources */,
 				63BFB4F523725A4500D0265B /* C++STL.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
