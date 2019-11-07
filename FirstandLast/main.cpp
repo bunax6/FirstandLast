@@ -39,6 +39,11 @@ int main(int argc, const char * argv[]) {
     SortShow(arr,6);
     cout<<endl;
     
+    cout<<"\nSelection sort"<<endl;
+    selectionSort(arr,6);
+    SortShow(arr,6);
+    cout<<endl;
+    
     
     
     return 0;

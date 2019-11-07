@@ -15,5 +15,6 @@ using namespace std;
 void BubbleSort(int [],int);
 void SortShow(int [],int);
 void InsertionSort(int [],int);
+void selectionSort(int[],int);
 
 #endif /* SortingTech_hpp */
