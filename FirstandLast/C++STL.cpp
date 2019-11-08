@@ -14,7 +14,7 @@
 
 Cpp_STL::Cpp_STL()
 {
-    v = {0};
+    //v = {0};
 }
 
 Cpp_STL::Cpp_STL(int num)
@@ -37,6 +37,10 @@ void Cpp_STL::vectordisplay()
 
 void Cpp_STL::listdisplay()
 {
+    list<int> :: iterator itr;
+    for(itr = l.begin();itr!=l.end();itr++)
+        cout<<*itr<<endl;
+  /*
     for(auto &x: l)
-        cout<<x<<endl;
+        cout<<x<<endl; */
 }

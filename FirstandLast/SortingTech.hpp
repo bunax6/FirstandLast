@@ -16,5 +16,7 @@ void BubbleSort(int [],int);
 void SortShow(int [],int);
 void InsertionSort(int [],int);
 void selectionSort(int[],int);
+int partition(int[],int,int);
+void QuickSort(int[],int,int);
 
 #endif /* SortingTech_hpp */
