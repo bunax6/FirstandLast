@@ -2,7 +2,7 @@ CC = g++ -std=c++11
 CFLAG = -c
 
 First_Last: main.o General.o C++11.o C++STL.o SortingTech.o
-	g++ -std=c++11 main.o General.o C++11.o C++STL.o SortingTech.o -o First_Last 
+	$(CC) main.o General.o C++11.o C++STL.o SortingTech.o -o First_Last 
 main.o: main.cpp
 	$(CC) $(CFLAG) main.cpp
 General.o: General.cpp
