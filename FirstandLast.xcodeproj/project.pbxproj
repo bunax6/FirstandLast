@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		632B71C6237676EB006EB1B1 /* C++98.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 632B71C4237676EB006EB1B1 /* C++98.cpp */; };
 		63913D622371C5F600A0E1A4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63913D612371C5F600A0E1A4 /* main.cpp */; };
 		63913D6A2371C81200A0E1A4 /* General.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63913D692371C81200A0E1A4 /* General.cpp */; };
 		63913D6D2371C97500A0E1A4 /* C++11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63913D6B2371C97500A0E1A4 /* C++11.cpp */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		632B71C4237676EB006EB1B1 /* C++98.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C++98.cpp"; sourceTree = "<group>"; };
+		632B71C5237676EB006EB1B1 /* C++98.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "C++98.hpp"; sourceTree = "<group>"; };
 		63913D5E2371C5F600A0E1A4 /* FirstandLast */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstandLast; sourceTree = BUILT_PRODUCTS_DIR; };
 		63913D612371C5F600A0E1A4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		63913D682371C7AE00A0E1A4 /* General.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = General.h; sourceTree = "<group>"; };
@@ -78,6 +81,8 @@
 				63BFB4F423725A4500D0265B /* C++STL.hpp */,
 				63BFB4F62373C6B200D0265B /* SortingTech.cpp */,
 				63BFB4F72373C6B200D0265B /* SortingTech.hpp */,
+				632B71C4237676EB006EB1B1 /* C++98.cpp */,
+				632B71C5237676EB006EB1B1 /* C++98.hpp */,
 			);
 			path = FirstandLast;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				632B71C6237676EB006EB1B1 /* C++98.cpp in Sources */,
 				63913D6D2371C97500A0E1A4 /* C++11.cpp in Sources */,
 				63913D6A2371C81200A0E1A4 /* General.cpp in Sources */,
 				63913D622371C5F600A0E1A4 /* main.cpp in Sources */,

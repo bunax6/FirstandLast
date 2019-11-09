@@ -11,6 +11,7 @@
 #include "C++11.hpp"
 #include "C++STL.hpp"
 #include "SortingTech.hpp"
+#include "C++98.hpp"
 
 
 
@@ -43,6 +44,13 @@ int main(int argc, const char * argv[]) {
     selectionSort(arr,6);
     SortShow(arr,6);
     cout<<endl;
+    
+    Cpp98 c98;
+    Cpp98 c1 = c98;
+    Cpp98 c2;
+    c2 = c1;
+    c2.Cpp98Display();
+    
     
     
     
