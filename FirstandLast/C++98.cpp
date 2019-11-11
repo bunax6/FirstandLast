@@ -10,7 +10,7 @@
 
 Cpp98::Cpp98()
 {
-    iold = 0;
+    iold = 10;
 }
 
 Cpp98::Cpp98(int i_old)
